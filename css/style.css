@@ -12,8 +12,8 @@
   --background_image: url("../img/wallpaper.png");
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
-  --image_border_color: #1f232e;
-  --image_border_px: 0px;
+  --image_border_color: #fff;
+  --image_border_px: 3px;
 
   /* You can change the width and size of the picture by typing the number of pixels. */
   --image_width: 140px;
@@ -27,12 +27,12 @@
   --svg_color: #07345e;
 
   /* You can change the background, text color and active color of the menu by changing the color codes. */
-  --menu_background_color: #e2dfdd;
+  --menu_background_color: #fff;
   --menu_text_color: #1d1e24;
   --menu_active_text_color: #bb8725;
 
   /* You can change the button's background, text color and active color by changing the color codes. */
-  --button_background_color: #e2dfdd;
+  --button_background_color: #fff;
   --button_text_color: #07345e;
   --button_text_hover_color: #bb8725;
 
@@ -157,7 +157,7 @@ body {
   border-radius: 0.3em;
   cursor: pointer;
   transition: 0.10s ease;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .header_nav_menu_item + .header_nav_menu_item {
@@ -193,6 +193,10 @@ main {
   text-align: center;
 }
 
+.main_text_item p {
+  font-size: 1.2em;
+}
+
 .main_button_item {
   color: var(--button_text_color);
   background-color: var(--button_background_color);
@@ -201,12 +205,14 @@ main {
   min-height: 3.7em;
   text-align: center;
   cursor: pointer;
+  font-size: 1.2em;
 }
 
 .main_small_button_list {
   display: flex;
   flex-direction: row;
 }
+
 
 .main_small_a_item {
   margin-top: 1em;
@@ -232,6 +238,7 @@ main {
   min-height: 3.7em;
   text-align: center;
   cursor: pointer;
+  font-size: 1.2em;
 }
 
 /* Footer Codes */
